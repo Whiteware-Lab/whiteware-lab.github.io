@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Whiteware Lab mark</title>
+  <desc id="desc">Minimal geometric lab flask, code and modular blocks mark.</desc>
+  <rect width="512" height="512" rx="96" fill="#FFFFFF"/>
+  <path d="M196 76h120v34h-32v82l100 184-42 42-58-58-28 28-28-28-58 58-42-42 100-184v-82h-32z" fill="none" stroke="#071426" stroke-width="26" stroke-linejoin="round"/>
+  <path d="M200 214l-34 34 34 34M312 214l34 34-34 34M272 210l-32 80" fill="none" stroke="#136DFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M256 296l54 31v62l-54 31-54-31v-62z" fill="#136DFF"/>
+  <path d="M256 296l54 31-54 31-54-31z" fill="#2F82FF"/>
+  <path d="M202 327l54 31v62l-54-31z" fill="#0B5FE8"/>
+  <path d="M310 327l-54 31v62l54-31z" fill="#0752C9"/>
+</svg>
