@@ -255,6 +255,128 @@ h1 {
   letter-spacing: 0.08em;
 }
 
+.status.available {
+  background: rgba(22, 163, 74, 0.12);
+  color: #15803d;
+}
+
+.card-link {
+  display: block;
+  color: inherit;
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.card-link:hover {
+  transform: translateY(-2px);
+  border-color: rgba(19, 109, 255, 0.35);
+  box-shadow: 0 20px 48px rgba(7, 20, 38, 0.10);
+}
+
+.card-icon-image {
+  padding: 6px;
+  background: #1A56B0;
+  overflow: hidden;
+}
+
+.card-icon-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-hero {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 48px;
+  align-items: center;
+  padding: 56px 0 48px;
+}
+
+.product-hero h1 {
+  font-size: clamp(3rem, 7vw, 5.2rem);
+}
+
+.product-hero-card {
+  padding: 34px;
+  border: 1px solid rgba(221, 229, 240, 0.90);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+}
+
+.product-logo {
+  width: 100%;
+  display: block;
+  border-radius: 22px;
+  background: #1A56B0;
+}
+
+.release-note {
+  margin-top: 18px;
+  max-width: 520px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.feature-list div {
+  padding: 24px;
+  border-radius: 24px;
+  background: white;
+  border: 1px solid var(--line);
+  box-shadow: 0 12px 32px rgba(7, 20, 38, 0.04);
+}
+
+.install-section {
+  padding-top: 44px;
+}
+
+.install-steps {
+  margin: 0;
+  padding-left: 1.25rem;
+  max-width: 720px;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.install-steps li {
+  margin-bottom: 16px;
+  padding-left: 8px;
+}
+
+.install-steps strong {
+  color: var(--navy);
+}
+
+.install-steps code {
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: var(--light);
+  font-size: 0.92em;
+}
+
+.install-steps a {
+  color: var(--blue);
+  font-weight: 650;
+}
+
+.install-steps a:hover {
+  text-decoration: underline;
+}
+
+.product-cta {
+  margin-top: 24px;
+}
+
 .principles {
   padding-top: 44px;
 }
@@ -330,8 +452,14 @@ h1 {
   }
 
   .cards,
-  .principle-list {
+  .principle-list,
+  .feature-list {
     grid-template-columns: 1fr;
+  }
+
+  .product-hero {
+    grid-template-columns: 1fr;
+    padding-top: 30px;
   }
 
   .cta {
